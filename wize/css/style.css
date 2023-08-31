@@ -1,0 +1,353 @@
+/* Google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap");
+
+/* bootstrap icon  */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-color: #3f1b15;
+  --button-color: #ff4f00;
+  --text-color: #312727;
+  --body-color: #fff;
+  --border-color: #c4bfbf;
+  --testimonial-color: #f5f5f5;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+/* header Section  */
+
+.top-bar p {
+  font-size: 16px;
+  color: var(--body-color);
+  font-weight: 600;
+}
+
+.top-bar {
+  background-color: var(--text-color);
+}
+
+.top-bar:hover {
+  background-color: var(--button-color);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+#navbarNav {
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  justify-content: center;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--border-color);
+}
+.btn {
+  background-color: var(--button-color);
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 14px 24px;
+}
+
+.btn:hover {
+  background-color: var(--dark-color);
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  color: var(--text-color);
+}
+
+.nav-link:hover {
+  color: var(--button-color);
+}
+
+/* hero section css  */
+
+.main_heading h1 {
+  font-size: 65px;
+  font-weight: 700;
+  width: 750px;
+  margin: auto;
+  padding: 90px 0 25px 0;
+}
+
+.main_heading p {
+  font-size: 20px;
+  width: 750px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.hero_button a {
+  font-size: 20px;
+  padding: 24px 30px;
+  margin: 10px 0;
+}
+
+.hero_button p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+iframe {
+  width: 100%;
+}
+
+/* Features css  */
+.features {
+  display: flex;
+  margin: 80px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.features h2 {
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.features .feature_button {
+  text-align: right;
+  margin-top: 45px;
+}
+
+.features .feature_button .btn {
+  font-size: 20px;
+  padding: 20px 28px;
+}
+
+.features .feature_button p {
+  font-size: 18px;
+}
+
+.features_details i {
+  font-size: 40px;
+  color: var(--button-color);
+}
+
+/* Services css  */
+#services {
+  margin: 90px 0;
+}
+
+#services .row {
+  margin-bottom: 90px;
+}
+
+/* Testimonials css  */
+#testimonials {
+  margin: 180px 60px;
+}
+
+#testimonials h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+#testimonials .clients_opinion {
+  background-color: var(--testimonial-color);
+  padding: 30px;
+}
+#testimonials .clients_opinion .testimonial_icon {
+  margin-bottom: 20px;
+}
+
+#testimonials .clients_opinion i {
+  color: var(--button-color);
+  font-size: 25px;
+}
+
+#testimonials .clients_opinion h3,
+h4 {
+  font-weight: bold;
+}
+#testimonials .clients_opinion p {
+  font-size: 18px;
+}
+
+.testimonial_details {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Process CSS  */
+
+#process h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.process_details {
+  background-color: var(--testimonial-color);
+  margin: auto;
+  padding: 40px 35px;
+  margin-bottom: 25px;
+}
+
+.process_details .number {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--button-color);
+}
+
+.process_details h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.process_details .description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* faq css  */
+#faq {
+  margin-top: 120px;
+}
+
+#faq h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.accordion_heading {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--testimonial-color);
+  padding: 25px;
+  width: 100%;
+}
+
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  border: none;
+}
+
+#faq h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* bookYourFreeAuditCall css  */
+
+#bookYourFreeAuditCall {
+  margin: 100px 0;
+}
+
+#bookYourFreeAuditCall h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.callBook {
+  display: flex;
+  gap: 15px;
+}
+
+.callBook img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--button-color);
+  /* overflow: hidden; */
+  top: 15px;
+  left: 125px;
+  border-radius: 50%;
+}
+
+.callBook .callJames {
+  margin-top: 18px;
+}
+
+.callJames .callPerfect i {
+  font-size: 30px;
+  color: var(--button-color);
+  margin-right: 7px;
+  font-weight: bold;
+}
+
+.callBook .description {
+  font-size: 22px;
+  margin: 5px;
+}
+
+#saveTime {
+  background-color: var(--testimonial-color);
+  padding: 100px 0;
+}
+#saveTime h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#saveTime p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+#saveTime a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#saveTime a i {
+  margin-left: 10px;
+}
+
+#footer {
+  background-color: var(--testimonial-color);
+  height: 100px;
+  border-top: 1px solid var(--border-color);
+}
+
+#footer .content {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer .content .logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#footer .content .text {
+  font-size: 18px;
+}
+
+#footer .content i {
+  font-size: 25px;
+  margin-left: 12px;
+}
